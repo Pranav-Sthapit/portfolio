@@ -1,0 +1,21 @@
+@reference "tailwindcss";
+
+.header {
+  @apply bg-blue-900 text-white shadow-md;
+}
+
+.header-container {
+  @apply container mx-auto flex justify-between items-center py-4 px-6;
+}
+
+.nav-title {
+  @apply text-2xl font-bold;
+}
+
+.nav-items {
+  @apply flex space-x-6;
+}
+
+.nav-item {
+  @apply hover:text-yellow-300 cursor-pointer;
+}
