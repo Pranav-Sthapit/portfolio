@@ -37,7 +37,7 @@ export default function About() {
             </div>
             <div className="skill-card">
               <h4 className="skill-title">Machine Learning</h4>
-              <p className="skill-desc">Machine learning models that solve real world problems whit 90+ accuracy</p>
+              <p className="skill-desc">Machine learning models that solve real world problems with 80+ accuracy</p>
             </div>
           </div>
         </div>

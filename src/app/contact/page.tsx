@@ -95,7 +95,6 @@ export default function Contact() {
             <p>
               Phone:{" "}
               <a
-                href="tel:+9779860325050"
                 className="text-blue-600 hover:underline"
               >
                 +977-9860325050
