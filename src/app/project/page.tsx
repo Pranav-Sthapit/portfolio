@@ -9,6 +9,13 @@ const projects = [
     tools: ["react.js", "Django", "Python", "SQLite"],
     url: "https://github.com/Pranav-sthapit/email-with-spam-detection",
   },
+  {
+    name: "Physical health and fitness prediction",
+    image: "/fitness.png",
+    description: "A physical health/fitness prediction system for general public designed to calculate fitness score and provide recommendations.",
+    tools: ["Angularjs", "Express", "Python", "Postgres","Flask"],
+    url: "https://fitness-predictor.vercel.app/",
+  },
 ];
 
 export default function Projects() {
