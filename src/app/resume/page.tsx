@@ -38,9 +38,7 @@ const projects = [
       "Built a system to predict fitness level based on user metrics like weight, height, and activity/nutrition levels. Includes interactive questionnaires and ML calculations for personalized insights.",
     link: "https://fitness-predictor.vercel.app",
     github: [
-      "https://github.com/Pranav-Sthapit/fitness-frontend",
-      "https://github.com/Pranav-Sthapit/fitness-backend",
-      "https://github.com/Pranav-Sthapit/fitness-ML-server"
+      "https://github.com/Pranav-Sthapit/health_and_fitness_prediction"
     ],
     tech: "Angular, Express, PostgreSQL, Flask, NumPy, Pandas",
   },
@@ -109,10 +107,8 @@ export default function Resume() {
               Profile
             </h2>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Computer Science student with a strong foundation in web development
-              and machine learning. Experienced in building full-stack applications
-              and integrating ML models to solve real-world problems. Passionate
-              about continuous learning and practical implementation.
+              An ambitious computer science student with foundation of web development technologies like react, angular, express, postgres with understanding of ML models and their integration in web apps.
+              Eager to build real-world solutions by developing and deploying ML models with web systems to create impactful applications.
             </p>
           </section>
 

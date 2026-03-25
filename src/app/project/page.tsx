@@ -14,7 +14,7 @@ const projects = [
     image: "/fitness.png",
     description: "A physical health/fitness prediction system for general public designed to calculate fitness score and provide recommendations.",
     tools: ["Angularjs", "Express", "Python", "Postgres","Flask"],
-    url: "https://fitness-predictor.vercel.app/",
+    url: "https://github.com/Pranav-Sthapit/health_and_fitness_prediction",
   },
 ];
 
