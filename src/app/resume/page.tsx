@@ -29,7 +29,9 @@ const projects = [
     title: "Email with Spam Detection",
     description:
       "Developed a client-server email system to separate and block spam emails. Integrated multiple ML models to predict spam probability and added basic cryptography for message encryption/decryption.",
-    link: "https://github.com/Pranav-Sthapit/Email-with-spam-detection",
+    github: [
+      "https://github.com/Pranav-Sthapit/health_and_fitness_prediction"
+    ],
     tech: "React.js, Django, SQLite, TailwindCSS, NumPy, Pandas",
   },
   {
