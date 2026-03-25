@@ -30,7 +30,7 @@ const projects = [
     description:
       "Developed a client-server email system to separate and block spam emails. Integrated multiple ML models to predict spam probability and added basic cryptography for message encryption/decryption.",
     github: [
-      "https://github.com/Pranav-Sthapit/health_and_fitness_prediction"
+      "https://github.com/Pranav-Sthapit/email-with-spam-detection"
     ],
     tech: "React.js, Django, SQLite, TailwindCSS, NumPy, Pandas",
   },
