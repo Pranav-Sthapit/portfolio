@@ -31,6 +31,11 @@ const skills = [
     image: "/angular.png",
     features:["Component-Based Architecture","Two-Way Data Binding","Dependency Injection (DI)"],
   },
+  {
+    name:".NET Core",
+    image: "dotnet.png",
+    features:["WEB API","Entity Framework","Repository Patterns"],
+  }
 ];
 
 export default function Skills() {

@@ -16,6 +16,13 @@ const projects = [
     tools: ["Angularjs", "Express", "Python", "Postgres","Flask"],
     url: "https://github.com/Pranav-Sthapit/health_and_fitness_prediction",
   },
+  {
+    name:"House Rental System",
+    image:"/rental.png",
+    description:" A full-stack house renting application for renting and finding houses.",
+    tools:["Angular",".NET Core WEB API","Postgres","Dapper","EF Core"],
+    url:"https://github.com/Pranav-Sthapit/house_renting_system",
+  }
 ];
 
 export default function Projects() {

@@ -16,7 +16,7 @@ const skills = [
   },
   {
     category: "Frameworks",
-    items: "React, Next.js, Angular, Express.js, Tailwind CSS",
+    items: "React, Next.js, Angular, Express.js, Tailwind CSS, .NET Core, EF Core, Dapper",
   },
   {
     category: "Tools & DB",
@@ -45,9 +45,16 @@ const projects = [
     tech: "Angular, Express, PostgreSQL, Flask, NumPy, Pandas",
   },
   {
+    title:"House Rental System",
+    description:"Developed a system for renting houses from various locations. Used various concepts like Dependency Injection, Repository Patterns, etc. Made use of OOP concepts like Inheritance in Data Transfer Objects.",
+    github:[
+      "https://github.com/Pranav-Sthapit/house_renting_system"
+    ],
+    tech: "Angular, .NET Core WEB API, Postgres, Dapper, EF Core",
+  },
+  {
     title: "Online Freelancing Platform",
-    description:
-      "Created a client-server freelancing platform for job posting and hiring. Integrated demo online payments via eSewa and collaborated with team members for different modules.",
+    description:"Created a client-server freelancing platform for job posting and hiring. Integrated demo online payments via eSewa and collaborated with team members for different modules.",
     github: [
       "https://github.com/KritanShahi/ecommerce_bca",
       "https://github.com/KritanShahi/ecommerce_bca_back"
@@ -77,11 +84,6 @@ export default function Resume() {
 
       <main className="min-h-screen flex items-center justify-center bg-gray-50 text-gray-900 px-4">
         <div className="max-w-4xl w-full p-6 md:p-12 bg-white rounded-xl shadow-sm">
-
-          {/* Work in progress */}
-          <p className="text-center text-2xl text-gray-500 mb-6">
-            Work in progress
-          </p>
 
           {/* Header */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">

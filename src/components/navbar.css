@@ -5,17 +5,39 @@
 }
 
 .header-container {
-  @apply container mx-auto flex justify-between items-center py-4 px-6;
+  @apply container mx-auto flex justify-between items-center py-4 px-6 relative;
 }
 
 .nav-title {
   @apply text-2xl font-bold;
 }
 
+/* Desktop nav */
 .nav-items {
   @apply flex space-x-6;
 }
 
+/* nav item */
 .nav-item {
   @apply hover:text-yellow-300 cursor-pointer;
+}
+
+/* hamburger button (hidden on desktop) */
+.menu-btn {
+  @apply text-3xl md:hidden;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  .nav-items {
+    @apply hidden flex-col absolute top-full left-0 w-full bg-blue-900 space-x-0;
+  }
+
+  .nav-items.open {
+    @apply flex;
+  }
+
+  .nav-item {
+    @apply py-3 px-6 border-t border-blue-800;
+  }
 }
